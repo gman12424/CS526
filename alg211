@@ -1,0 +1,17 @@
+
+int p = 1;
+int x = 1;
+int m = 13;
+int a = 12;
+while (x != 1){
+ p++;
+ x = (a * x) % m;
+
+}
+
+if(p == m - 1){
+	printf("full-period multiplier");
+}
+else{
+	printf("non-full period multiplier");
+}
